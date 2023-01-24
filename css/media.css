@@ -1,0 +1,197 @@
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 768px;
+  }
+  #menu-btn {
+    display: inline;
+    z-index: 1;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    margin-right: 250px;
+  }
+  .navbar {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar.active {
+    left: 0;
+  }
+  .navbar-item {
+    margin: 16px 0;
+  }
+  .navbar-link {
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .home {
+    padding: 65px 0;
+  }
+  .home-title {
+    font-size: 72px;
+    line-height: 88px;
+  }
+  .home-text {
+    width: 690px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  .partners-wrap div {
+    margin: 5px;
+  }
+  .heading h2 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .heading p {
+    width: 690px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  .team-card {
+    margin: 10px;
+  }
+  .collection-wrap {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .provide-wrap {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .testimonials-wrap {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .faq-info {
+    width: 373px;
+  }
+  .faq-info h3 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .faq-info p {
+    font-size: 16px;
+  line-height: 24px;
+  }
+  .accordion {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .cta-info {
+    text-align: center;
+    padding: 48px 191px;
+  }
+  .cta-info h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .cta-info p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer-wrap {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-wrap .logo {
+    margin-top: -100px;
+    margin-right: -25px;
+  }
+  .footer-menu {
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .container {
+    max-width: 100%;
+  }
+  .logo {
+    margin-left: 80px;
+  }
+  .home {
+    padding: 48px 0;
+  }
+  .home-title {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .home-text {
+    width: 288px;
+    margin: 0 auto;
+  }
+  .heading h2 {
+    font-size: 36px;
+  line-height: 48px;
+  }
+  .heading p {
+    width: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+  }
+  .collection-wrap {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .provide-wrap {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .testimonials-wrap {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .faq-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .faq-info h3 {
+    font-size: 36px;
+  line-height: 48px;
+  }
+  .faq-info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .accordion {
+    margin-top: 32px;
+  }
+  .cta-info {
+    text-align: center;
+    padding: 24px 16px;
+  }
+  .cta-info h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .cta-info p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer-wrap .logo {
+    margin-top: -100px;
+    margin-left: -10px;
+  }
+}
